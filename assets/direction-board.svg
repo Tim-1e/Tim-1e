@@ -1,0 +1,50 @@
+<svg width="1050" height="560" viewBox="0 0 1050 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="40" x2="1010" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#112B24"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="72" y1="102" x2="978" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1050" height="560" rx="28" fill="#0B0F16"/>
+  <rect x="42" y="42" width="966" height="476" rx="24" fill="url(#bg)" stroke="#334155"/>
+  <text x="82" y="104" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="870">方向地图 · 杂食型图形研究员路线</text>
+  <text x="82" y="140" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">主线很明确：3D 生成与渲染。支线很多：工具、逆向增强、硬件和自动化，统统装进技能树里。</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="82" y="184" width="280" height="118" rx="18" fill="#0F172A" stroke="#60A5FA"/>
+    <text x="110" y="224" fill="#DBEAFE" font-size="23" font-weight="850">3D 生成与渲染</text>
+    <text x="110" y="258" fill="#CBD5E1" font-size="17">ProxyTracing</text>
+    <text x="110" y="284" fill="#CBD5E1" font-size="17">optix7_advance_PKUcourse</text>
+
+    <rect x="386" y="184" width="280" height="118" rx="18" fill="#0F172A" stroke="#22D3EE"/>
+    <text x="414" y="224" fill="#CFFAFE" font-size="23" font-weight="850">工具开发</text>
+    <text x="414" y="258" fill="#CBD5E1" font-size="17">dotfiles</text>
+    <text x="414" y="284" fill="#CBD5E1" font-size="17">GitHub Actions profile workflow</text>
+
+    <rect x="690" y="184" width="278" height="118" rx="18" fill="#0F172A" stroke="#22C55E"/>
+    <text x="718" y="224" fill="#DCFCE7" font-size="23" font-weight="850">逆向增强 / 硬件</text>
+    <text x="718" y="258" fill="#CBD5E1" font-size="17">ansnake_led_controller</text>
+    <text x="718" y="284" fill="#CBD5E1" font-size="17">automation experiments</text>
+
+    <rect x="82" y="330" width="280" height="118" rx="18" fill="#0F172A" stroke="#A78BFA"/>
+    <text x="110" y="370" fill="#EDE9FE" font-size="23" font-weight="850">AI / 代理 / 语音</text>
+    <text x="110" y="404" fill="#CBD5E1" font-size="17">cursor_agent</text>
+    <text x="110" y="430" fill="#CBD5E1" font-size="17">AR-TTS, Soviet_chat</text>
+
+    <rect x="386" y="330" width="280" height="118" rx="18" fill="#0F172A" stroke="#F59E0B"/>
+    <text x="414" y="370" fill="#FEF3C7" font-size="23" font-weight="850">原型实验</text>
+    <text x="414" y="404" fill="#CBD5E1" font-size="17">Hold_RML</text>
+    <text x="414" y="430" fill="#CBD5E1" font-size="17">MusicAndMarkov, bingo_analyze</text>
+
+    <rect x="690" y="330" width="278" height="118" rx="18" fill="#0F172A" stroke="url(#stroke)"/>
+    <text x="829" y="372" text-anchor="middle" fill="#F8FAFC" font-size="24" font-weight="880">目标</text>
+    <text x="829" y="406" text-anchor="middle" fill="#CBD5E1" font-size="17">全栈能力最强的</text>
+    <text x="829" y="432" text-anchor="middle" fill="#22D3EE" font-size="21" font-weight="850">图形研究员 (ง •̀_•́)ง</text>
+  </g>
+</svg>

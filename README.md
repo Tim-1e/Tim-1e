@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&section=header&color=0:0F172A,45:2563EB,100:22C55E&text=Welcome%20to%20Tim_e's%20GitHub&fontSize=44&fontColor=FFFFFF&animation=fadeIn&desc=code%20less,%20work%20more!&descAlignY=58&descSize=18" alt="Welcome to Tim_e's GitHub" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&section=header&color=0:0F172A,45:2563EB,100:22C55E&text=Welcome%20to%20Tim_e%27s%20GitHub&fontSize=30&fontAlign=70&fontAlignY=27&fontColor=FFFFFF&animation=fadeIn" alt="Welcome to Tim_e's GitHub" />
 </p>
 
 <p align="center">
@@ -16,32 +16,34 @@
 </p>
 
 <p align="center">
+  <img src="./assets/badge-divider.svg" alt="navigation badges to profile signals divider" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Tim-1e"><img src="https://img.shields.io/badge/GitHub-Tim--1e-111827?style=for-the-badge&logo=github" alt="GitHub Tim-1e" /></a>
   <img src="https://komarev.com/ghpvc/?username=Tim-1e&style=for-the-badge&color=22C55E" alt="Profile views" />
   <img src="https://img.shields.io/badge/Public%20Repos-22-2563EB?style=for-the-badge&logo=github" alt="Public repositories" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Rendering%20%2B%20Automation-0EA5E9?style=for-the-badge&logo=githubactions" alt="Focus" />
+  <img src="https://img.shields.io/badge/Main%20Track-3D%20Rendering-0EA5E9?style=for-the-badge&logo=blender" alt="Main track" />
+  <img src="https://img.shields.io/badge/Side%20Quests-Tools%20%2F%20Reverse%20%2F%20Hardware-F97316?style=for-the-badge&logo=githubactions" alt="Side quests" />
 </p>
 
 <h2 id="about">关于我</h2>
 
-我是 Tim_e。这个主页只使用 GitHub 公开信息来组织内容，重点展示几个方向：
+你好呀，我是 Tim_e。现在主线在 **3D 生成与渲染**，每天都在和几何、光照、工程细节打交道；支线就比较杂食：工具开发、逆向增强、硬件小玩具、自动化脚本，看到能让工作流变顺手的东西就想拆开看看。
 
-- **AI tooling**：围绕代理、自动化、代码工作流做小工具。
-- **Rendering and graphics**：有 `ProxyTracing`、`optix7_advance_PKUcourse` 等渲染和图形相关项目。
-- **Automation**：通过 `dotfiles`、环境配置和 GitHub Actions 把重复工作模块化。
-- **Research prototypes**：把研究想法快速落到可运行的小系统里。
+我喜欢把研究想法快速做成能跑的小系统，也喜欢把重复劳动压缩成可复用模块。理想形态是：既能读论文、写渲染管线，也能补工具链、搭服务、修硬件，最后成为全栈能力最强的图形研究员 (｀・ω・´)
 
-> 个人主页目标：把实验性质的项目、技能栈和自动生成的 GitHub 视觉组件组合成一个可长期维护的 profile。
+目前公开仓库里能看到一些方向碎片：`ProxyTracing` 和 `optix7_advance_PKUcourse` 偏图形与渲染，`dotfiles` 和 profile workflow 偏自动化，`cursor_agent`、`AR-TTS`、`Soviet_chat` 则是 AI / 代理 / 语音相关的小实验。
 
 <h2 id="skills">语言与工具</h2>
 
 <p align="center">
-  <a href="https://github.com/Jurredr/github-widgetbox">
-    <img src="https://github-widgetbox.vercel.app/api/skills?theme=darkmode&includeNames=true&languages=python,js,ts,html,cpp,rust,powershell&tools=git,githubactions,nodejs,vercel,vscode" alt="Language and tool skills" />
-  </a>
+  <img src="./assets/skills-board.svg" alt="language and tool speed board" />
 </p>
 
 <p align="center">
+  <sub>真实图标速览：这是技能树的一图流版本，先看个大概就好啦 (｡･ω･｡)</sub>
+  <br/>
   <img src="https://skillicons.dev/icons?i=python,js,ts,powershell,html,cpp,rust,nodejs,git,githubactions,vercel,vscode&perline=12&theme=dark" alt="Skill icons" />
 </p>
 
@@ -57,12 +59,9 @@
   <a href="https://github.com/Tim-1e/Hold_RML"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tim-1e&repo=Hold_RML&theme=tokyonight&hide_border=true" alt="Hold_RML repository card" /></a>
 </p>
 
-| 方向 | 公开仓库信号 |
-| --- | --- |
-| 自动化和环境 | `dotfiles`, GitHub Actions profile workflow |
-| 渲染与图形 | `ProxyTracing`, `optix7_advance_PKUcourse` |
-| AI / 代理 / 语音 | `cursor_agent`, `AR-TTS`, `Soviet_chat` |
-| 原型实验 | `Hold_RML`, `MusicAndMarkov`, `bingo_analyze` |
+<p align="center">
+  <img src="./assets/direction-board.svg" alt="project direction board" />
+</p>
 
 <h2 id="stats">GitHub 状态</h2>
 
@@ -77,7 +76,7 @@
   <img src="./profile-3d-contrib/profile-season-animate.svg" alt="profile-season-animate 3D contribution graph" />
 </p>
 
-> 这里使用 `yoshi389111/github-profile-3d-contrib` 的 `profile-season-animate.svg`。首次上传到 `Tim-1e/Tim-1e` 后，需要在 Actions 里运行一次 `GitHub Profile 3D Contrib`，这个占位 SVG 会被真实个人贡献图替换。
+> 这里使用 `yoshi389111/github-profile-3d-contrib` 的 `profile-season-animate.svg`，由 GitHub Actions 自动更新。
 
 <h2 id="activity">最近一个月公开活动</h2>
 
