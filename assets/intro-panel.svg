@@ -31,26 +31,26 @@
     <rect x="58" y="58" width="1164" height="384" rx="18" stroke="url(#accent)" stroke-opacity="0.32"/>
   </g>
 
-  <text x="110" y="124" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="850" letter-spacing="1.4">TIM-1E PROFILE PAGE</text>
-  <text x="110" y="210" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="880">Tim_e</text>
-  <text x="110" y="268" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">3D generation / rendering / tool-making</text>
+  <text x="110" y="124" fill="#22D3EE" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="850" letter-spacing="1.8">TIM-1E PROFILE PAGE</text>
+  <text x="110" y="208" fill="#F8FAFC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="74" font-weight="880">Tim_e</text>
+  <text x="110" y="264" fill="#E2E8F0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="29" font-weight="800">3D generation / rendering / research tools</text>
 
-  <text x="110" y="318" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">主线是 3D 生成与渲染，也喜欢把工具开发、逆向增强、硬件小实验串成自己的装备库。</text>
-  <text x="110" y="355" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">目标是成为全栈能力拉满的图形研究员。今天也在升级技能树中 (｀・ω・´)</text>
+  <text x="110" y="316" fill="#CBD5E1" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22">主线研究 3D 生成与渲染，支线喜欢工具开发、逆向增强和硬件小实验。</text>
+  <text x="110" y="354" fill="#94A3B8" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19">把想法快速做成能跑的小系统，然后继续升级技能树 (｀・ω・´)</text>
 
-  <rect x="110" y="397" width="670" height="2" rx="1" fill="url(#accent)"/>
+  <rect x="110" y="398" width="628" height="2" rx="1" fill="url(#accent)"/>
+  <text x="110" y="426" fill="#A7F3D0" font-family="Cascadia Code, Consolas, monospace" font-size="17">render(); build_tools(); automate(); repeat();</text>
 
   <g opacity="0.96">
-    <rect x="812" y="118" width="304" height="70" rx="16" fill="#0F172A" stroke="#334155"/>
-    <text x="838" y="148" fill="#93C5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850">MAIN TRACK</text>
-    <text x="838" y="175" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="860">3D + Rendering</text>
+    <rect x="808" y="122" width="326" height="94" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="836" y="156" fill="#93C5FD" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="850">MAIN TRACK</text>
+    <text x="836" y="188" fill="#F8FAFC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="26" font-weight="860">3D + Rendering</text>
 
-    <rect x="812" y="211" width="304" height="70" rx="16" fill="#0F172A" stroke="#334155"/>
-    <text x="838" y="241" fill="#86EFAC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850">SIDE QUESTS</text>
-    <text x="838" y="268" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="860">Tools / Reverse / HW</text>
+    <rect x="808" y="244" width="326" height="94" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="836" y="278" fill="#86EFAC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="850">SIDE QUESTS</text>
+    <text x="836" y="310" fill="#F8FAFC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="860">Tools / Reverse / HW</text>
 
-    <rect x="812" y="304" width="304" height="70" rx="16" fill="#0F172A" stroke="#334155"/>
-    <text x="838" y="334" fill="#FDE68A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850">PUBLIC REPOS</text>
-    <text x="838" y="361" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="860">22 modules</text>
+    <path d="M824 376H1118" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+    <text x="971" y="412" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="780">research prototypes, tiny tools, and shiny pipelines</text>
   </g>
 </svg>

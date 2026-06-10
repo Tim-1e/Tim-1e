@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&section=header&color=0:0F172A,45:2563EB,100:22C55E&text=Welcome%20to%20Tim_e%27s%20GitHub&fontSize=30&fontAlign=70&fontAlignY=27&fontColor=FFFFFF&animation=fadeIn" alt="Welcome to Tim_e's GitHub" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&color=0:0F172A,45:2563EB,100:22C55E&text=Welcome%20to%20Tim_e%27s%20GitHub&fontSize=28&fontAlign=76&fontAlignY=24&fontColor=FFFFFF&animation=fadeIn" alt="Welcome to Tim_e's GitHub" />
 </p>
 
 <p align="center">
@@ -29,23 +29,23 @@
 
 <h2 id="about">关于我</h2>
 
-你好呀，我是 Tim_e。现在主线在 **3D 生成与渲染**，每天都在和几何、光照、工程细节打交道；支线就比较杂食：工具开发、逆向增强、硬件小玩具、自动化脚本，看到能让工作流变顺手的东西就想拆开看看。
-
-我喜欢把研究想法快速做成能跑的小系统，也喜欢把重复劳动压缩成可复用模块。理想形态是：既能读论文、写渲染管线，也能补工具链、搭服务、修硬件，最后成为全栈能力最强的图形研究员 (｀・ω・´)
-
-目前公开仓库里能看到一些方向碎片：`ProxyTracing` 和 `optix7_advance_PKUcourse` 偏图形与渲染，`dotfiles` 和 profile workflow 偏自动化，`cursor_agent`、`AR-TTS`、`Soviet_chat` 则是 AI / 代理 / 语音相关的小实验。
+<p align="center">
+  <img src="./assets/about-card.svg" alt="Tim_e about card" />
+</p>
 
 <h2 id="skills">语言与工具</h2>
 
-<p align="center">
-  <img src="./assets/skills-board.svg" alt="language and tool speed board" />
-</p>
-
-<p align="center">
-  <sub>真实图标速览：这是技能树的一图流版本，先看个大概就好啦 (｡･ω･｡)</sub>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,powershell,html,cpp,rust,nodejs,git,githubactions,vercel,vscode&perline=12&theme=dark" alt="Skill icons" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="./assets/skills-board.svg" alt="language and tool speed board" />
+        <br/>
+        <img src="https://skillicons.dev/icons?i=python,js,ts,powershell,html,cpp,rust,nodejs,git,githubactions,vercel,vscode&amp;perline=6&amp;theme=dark" alt="Python, JavaScript, TypeScript, PowerShell, HTML, C++, Rust, Node.js, Git, GitHub Actions, Vercel, VS Code" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <h2 id="projects">公开项目</h2>
 
@@ -75,8 +75,6 @@
 <p align="center">
   <img src="./profile-3d-contrib/profile-season-animate.svg" alt="profile-season-animate 3D contribution graph" />
 </p>
-
-> 这里使用 `yoshi389111/github-profile-3d-contrib` 的 `profile-season-animate.svg`，由 GitHub Actions 自动更新。
 
 <h2 id="activity">最近一个月公开活动</h2>
 

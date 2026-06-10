@@ -1,15 +1,25 @@
-<svg width="980" height="72" viewBox="0 0 980 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="980" height="64" viewBox="0 0 980 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="line" x1="74" y1="36" x2="906" y2="36" gradientUnits="userSpaceOnUse">
+    <linearGradient id="leftLine" x1="72" y1="32" x2="386" y2="32" gradientUnits="userSpaceOnUse">
       <stop stop-color="#60A5FA" stop-opacity="0"/>
-      <stop offset="0.18" stop-color="#60A5FA"/>
-      <stop offset="0.5" stop-color="#22D3EE"/>
-      <stop offset="0.82" stop-color="#22C55E"/>
+      <stop offset="0.42" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="rightLine" x1="594" y1="32" x2="908" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.58" stop-color="#22C55E"/>
       <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="textGrad" x1="360" y1="32" x2="620" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="0.52" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
   </defs>
-  <rect width="980" height="72" fill="none"/>
-  <path d="M78 36H902" stroke="url(#line)" stroke-width="2"/>
-  <rect x="347" y="13" width="286" height="46" rx="23" fill="#0F172A" stroke="#334155"/>
-  <text x="490" y="42" text-anchor="middle" fill="#DDE9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">navigation badges  ->  profile signals</text>
+  <rect width="980" height="64" fill="none"/>
+  <path d="M76 32H384" stroke="url(#leftLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 10"/>
+  <path d="M596 32H904" stroke="url(#rightLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 10"/>
+  <circle cx="402" cy="32" r="3.5" fill="#22D3EE"/>
+  <circle cx="578" cy="32" r="3.5" fill="#22C55E"/>
+  <text x="490" y="38" text-anchor="middle" fill="url(#textGrad)" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="850">跳转入口  ·  下面是主页信号徽章</text>
 </svg>
