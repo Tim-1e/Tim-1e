@@ -35,17 +35,9 @@
 
 <h2 id="skills">语言与工具</h2>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="./assets/skills-board.svg" alt="language and tool speed board" />
-        <br/>
-        <img src="https://skillicons.dev/icons?i=python,js,ts,powershell,html,cpp,rust,nodejs,git,githubactions,vercel,vscode&amp;perline=6&amp;theme=dark" alt="Python, JavaScript, TypeScript, PowerShell, HTML, C++, Rust, Node.js, Git, GitHub Actions, Vercel, VS Code" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="./assets/skills-board.svg" alt="language and tool speed board" />
+</p>
 
 <h2 id="projects">公开项目</h2>
 

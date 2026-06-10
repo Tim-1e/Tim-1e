@@ -1,25 +1,23 @@
 <svg width="980" height="64" viewBox="0 0 980 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="leftLine" x1="72" y1="32" x2="386" y2="32" gradientUnits="userSpaceOnUse">
+    <linearGradient id="routeLine" x1="72" y1="32" x2="910" y2="32" gradientUnits="userSpaceOnUse">
       <stop stop-color="#60A5FA" stop-opacity="0"/>
-      <stop offset="0.42" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-    <linearGradient id="rightLine" x1="594" y1="32" x2="908" y2="32" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.58" stop-color="#22C55E"/>
+      <stop offset="0.12" stop-color="#60A5FA"/>
+      <stop offset="0.44" stop-color="#22D3EE"/>
+      <stop offset="0.78" stop-color="#22C55E"/>
       <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="360" y1="32" x2="620" y2="32" gradientUnits="userSpaceOnUse">
+    <linearGradient id="textGrad" x1="130" y1="32" x2="420" y2="32" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2563EB"/>
       <stop offset="0.52" stop-color="#0891B2"/>
       <stop offset="1" stop-color="#16A34A"/>
     </linearGradient>
   </defs>
   <rect width="980" height="64" fill="none"/>
-  <path d="M76 32H384" stroke="url(#leftLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 10"/>
-  <path d="M596 32H904" stroke="url(#rightLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 10"/>
-  <circle cx="402" cy="32" r="3.5" fill="#22D3EE"/>
-  <circle cx="578" cy="32" r="3.5" fill="#22C55E"/>
-  <text x="490" y="38" text-anchor="middle" fill="url(#textGrad)" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="850">跳转入口  ·  下面是主页信号徽章</text>
+  <path d="M76 32H132" stroke="url(#routeLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="14 9"/>
+  <path d="M520 32H904" stroke="url(#routeLine)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="14 9"/>
+  <text x="164" y="38" fill="url(#textGrad)" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="850">快速跳转</text>
+  <path d="M276 38V22M276 22L269 29M276 22L283 29" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="322" y="38" fill="url(#textGrad)" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="850">基础信息</text>
+  <path d="M440 22V38M440 38L433 31M440 38L447 31" stroke="#16A34A" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
