@@ -1,0 +1,32 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.58" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F2D22"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="220" y1="150" x2="740" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="22" fill="url(#bg)"/>
+  <path d="M140 380L450 255L760 380L450 500L140 380Z" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <path d="M140 380L450 500L760 380V425L450 545L140 425V380Z" fill="#0B1020" stroke="#1E293B" stroke-width="3"/>
+  <g fill="url(#bar)" opacity="0.96">
+    <rect x="250" y="292" width="26" height="64" rx="5"/>
+    <rect x="294" y="270" width="26" height="86" rx="5"/>
+    <rect x="338" y="238" width="26" height="118" rx="5"/>
+    <rect x="382" y="198" width="26" height="158" rx="5"/>
+    <rect x="426" y="220" width="26" height="136" rx="5"/>
+    <rect x="470" y="176" width="26" height="180" rx="5"/>
+    <rect x="514" y="148" width="26" height="208" rx="5"/>
+    <rect x="558" y="190" width="26" height="166" rx="5"/>
+    <rect x="602" y="164" width="26" height="192" rx="5"/>
+  </g>
+  <text x="70" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="850">Tim-1e 3D contribution map</text>
+  <text x="70" y="126" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Placeholder for profile-season-animate.svg</text>
+  <text x="70" y="154" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">GitHub Actions will replace this file with real contribution data after the first run.</text>
+  <text x="646" y="488" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="850">profile-season-animate</text>
+</svg>

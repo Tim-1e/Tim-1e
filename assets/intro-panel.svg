@@ -1,0 +1,73 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="54" y1="64" x2="1226" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12213D"/>
+      <stop offset="0.55" stop-color="#121722"/>
+      <stop offset="1" stop-color="#0F2D22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(945 150) rotate(118) scale(360 460)">
+      <stop stop-color="#22C55E" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="110" y1="390" x2="1170" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#243044" stroke-opacity="0.52" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="32" y="42" width="1216" height="436" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="520" fill="#0B0F16"/>
+  <rect width="1280" height="520" fill="url(#grid)" opacity="0.8"/>
+
+  <g filter="url(#shadow)">
+    <rect x="58" y="64" width="1164" height="392" rx="18" fill="url(#panel)" stroke="#334155"/>
+    <rect x="58" y="64" width="1164" height="392" rx="18" fill="url(#glow)"/>
+    <rect x="58" y="64" width="1164" height="392" rx="18" stroke="url(#accent)" stroke-opacity="0.28"/>
+  </g>
+
+  <text x="110" y="132" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="1.5">TIM-1E PROFILE PAGE</text>
+  <text x="110" y="222" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="82" font-weight="850">Tim_e</text>
+  <text x="110" y="288" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">code less, work more!</text>
+
+  <text x="110" y="334" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">AI tooling / rendering / automation / research prototypes</text>
+  <text x="110" y="370" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">用小工具、图形系统和自动化流程，把重复工作压缩成可复用的模块。</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">
+    <rect x="110" y="406" width="132" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="135" y="432" fill="#DDE9FF">ABOUT</text>
+
+    <rect x="256" y="406" width="128" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="282" y="432" fill="#DDE9FF">SKILLS</text>
+
+    <rect x="398" y="406" width="146" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="422" y="432" fill="#DDE9FF">PROJECTS</text>
+
+    <rect x="558" y="406" width="114" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="585" y="432" fill="#DDE9FF">STATS</text>
+
+    <rect x="686" y="406" width="136" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="714" y="432" fill="#DDE9FF">3D MAP</text>
+
+    <rect x="836" y="406" width="142" height="40" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="862" y="432" fill="#DDE9FF">ACTIVITY</text>
+  </g>
+
+  <g opacity="0.92">
+    <rect x="790" y="126" width="302" height="64" rx="14" fill="#0F172A" stroke="#334155"/>
+    <text x="816" y="154" fill="#93C5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">PUBLIC REPOS</text>
+    <text x="816" y="179" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="850">22</text>
+
+    <rect x="790" y="208" width="302" height="64" rx="14" fill="#0F172A" stroke="#334155"/>
+    <text x="816" y="236" fill="#86EFAC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">FOCUS</text>
+    <text x="816" y="261" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="850">AI + Graphics</text>
+
+    <rect x="790" y="290" width="302" height="64" rx="14" fill="#0F172A" stroke="#334155"/>
+    <text x="816" y="318" fill="#FDE68A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">PROFILE MODE</text>
+    <text x="816" y="343" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="850">public data only</text>
+  </g>
+</svg>
