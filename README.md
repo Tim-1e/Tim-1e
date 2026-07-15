@@ -42,13 +42,13 @@
 <h2 id="projects">公开项目</h2>
 
 <p align="center">
-  <a href="https://github.com/Tim-1e/dotfiles"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tim-1e&repo=dotfiles&theme=tokyonight&hide_border=true" alt="dotfiles repository card" /></a>
-  <a href="https://github.com/Tim-1e/ProxyTracing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tim-1e&repo=ProxyTracing&theme=tokyonight&hide_border=true" alt="ProxyTracing repository card" /></a>
+  <a href="https://github.com/Tim-1e/dotfiles"><img src="./assets/github-stats/pin-dotfiles.svg" alt="dotfiles repository card" /></a>
+  <a href="https://github.com/Tim-1e/ProxyTracing"><img src="./assets/github-stats/pin-ProxyTracing.svg" alt="ProxyTracing repository card" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Tim-1e/optix7_advance_PKUcourse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tim-1e&repo=optix7_advance_PKUcourse&theme=tokyonight&hide_border=true" alt="optix7_advance_PKUcourse repository card" /></a>
-  <a href="https://github.com/Tim-1e/Hold_RML"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tim-1e&repo=Hold_RML&theme=tokyonight&hide_border=true" alt="Hold_RML repository card" /></a>
+  <a href="https://github.com/Tim-1e/optix7_advance_PKUcourse"><img src="./assets/github-stats/pin-optix7_advance_PKUcourse.svg" alt="optix7_advance_PKUcourse repository card" /></a>
+  <a href="https://github.com/Tim-1e/Hold_RML"><img src="./assets/github-stats/pin-Hold_RML.svg" alt="Hold_RML repository card" /></a>
 </p>
 
 <p align="center">
@@ -58,8 +58,8 @@
 <h2 id="stats">GitHub 状态</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tim-1e&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&custom_title=Tim-1e%20GitHub%20Stats" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tim-1e&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="./assets/github-stats/stats.svg" alt="GitHub stats" />
+  <img src="./assets/github-stats/top-langs.svg" alt="Top languages" />
 </p>
 
 <h2 id="profile-3d">3D 贡献图</h2>
