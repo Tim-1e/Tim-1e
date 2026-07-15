@@ -9,10 +9,10 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Tim-1e GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 4, Total Commits  : 138, Total PRs: 8, Total Issues: 5, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 4, Total Commits  : 138, Total PRs: 9, Total Issues: 5, Contributed to (last year): 3</desc>
         <style>
           .header {
-            font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: #70a5fd;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 226.00976585724024;
+        stroke-dashoffset: 225.23554707408863;
       }
     }
   
@@ -118,7 +118,7 @@
         
       <g
         data-testid="card-title"
-        transform="translate(25, 32)"
+        transform="translate(25, 35)"
       >
         <g transform="translate(0, 0)">
       <text
@@ -133,7 +133,7 @@
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 52)"
+          transform="translate(0, 55)"
         >
           
     <g data-testid="rank-circle"
@@ -159,7 +159,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="stars"
       >4</text>
@@ -174,7 +174,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="commits"
       >138</text>
@@ -189,10 +189,10 @@
       <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="prs"
-      >8</text>
+      >9</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -204,7 +204,7 @@
       <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="issues"
       >5</text>
@@ -219,7 +219,7 @@
       <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
       <text
         class="stat  bold"
-        x="219.01"
+        x="224.01"
         y="12.5"
         data-testid="contribs"
       >3</text>
