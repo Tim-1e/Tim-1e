@@ -71,5 +71,5 @@
 <h2 id="activity">最近一个月公开活动</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tim-1e&theme=react-dark&hide_border=true&area=true&radius=8&days=31&custom_title=Tim-1e%20最近一个月公开活动" alt="GitHub Readme Activity Graph" />
+  <img src="https://jeskei-readme-activity-graph.vercel.app/graph?username=Tim-1e&theme=react-dark&hide_border=true&area=true&radius=8&days=31&custom_title=Tim-1e%20最近一个月公开活动" alt="GitHub Readme Activity Graph" />
 </p>
