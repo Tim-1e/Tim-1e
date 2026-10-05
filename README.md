@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="#about"><img src="https://img.shields.io/badge/About-关于我-111827?style=for-the-badge&logo=github" alt="About" /></a>
+  <a href="#blog"><img src="https://img.shields.io/badge/Blog-档案终端-0EA5E9?style=for-the-badge&logo=windowsterminal" alt="Blog" /></a>
   <a href="#skills"><img src="https://img.shields.io/badge/Skills-语言与工具-2563EB?style=for-the-badge&logo=visualstudiocode" alt="Skills" /></a>
   <a href="#projects"><img src="https://img.shields.io/badge/Projects-公开项目-16A34A?style=for-the-badge&logo=githubactions" alt="Projects" /></a>
   <a href="#stats"><img src="https://img.shields.io/badge/Stats-GitHub状态-7C3AED?style=for-the-badge&logo=github" alt="Stats" /></a>
@@ -21,6 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/Tim-1e"><img src="https://img.shields.io/badge/GitHub-Tim--1e-111827?style=for-the-badge&logo=github" alt="GitHub Tim-1e" /></a>
+  <a href="https://blog.princival.com/"><img src="https://img.shields.io/badge/Blog-blog.princival.com-0EA5E9?style=for-the-badge&logo=windowsterminal" alt="Blog blog.princival.com" /></a>
   <img src="https://komarev.com/ghpvc/?username=Tim-1e&style=for-the-badge&color=22C55E" alt="Profile views" />
   <img src="https://img.shields.io/badge/Public%20Repos-22-2563EB?style=for-the-badge&logo=github" alt="Public repositories" />
   <img src="https://img.shields.io/badge/Main%20Track-3D%20Rendering-0EA5E9?style=for-the-badge&logo=blender" alt="Main track" />
@@ -31,6 +33,12 @@
 
 <p align="center">
   <img src="./assets/about-card.svg" alt="Tim_e about card" />
+</p>
+
+<h2 id="blog">博客 · 档案终端</h2>
+
+<p align="center">
+  <a href="https://blog.princival.com/"><img src="./assets/blog-card.svg" alt="Tim_e blog card - 档案终端" /></a>
 </p>
 
 <h2 id="skills">语言与工具</h2>
