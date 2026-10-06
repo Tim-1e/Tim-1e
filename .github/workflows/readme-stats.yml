@@ -24,7 +24,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&custom_title=Tim-1e%20GitHub%20Stats
+            username=${{ github.repository_owner }}&show_icons=true&bg_color=0c0d0f&title_color=ffd400&text_color=e8e6e1&icon_color=3fd2e6&ring_color=ffd400&border_color=2a2d33&border_radius=0&rank_icon=github&include_all_commits=true&custom_title=TIM-1E%20%2F%2F%20STATS
           path: assets/github-stats/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,44 +33,8 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+            username=${{ github.repository_owner }}&layout=compact&langs_count=8&bg_color=0c0d0f&title_color=ffd400&text_color=e8e6e1&icon_color=3fd2e6&ring_color=ffd400&border_color=2a2d33&border_radius=0&custom_title=TOP%20LANGUAGES
           path: assets/github-stats/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for dotfiles
-        uses: stats-organization/github-readme-stats-action@v2.0.1
-        with:
-          card: pin
-          options: >-
-            username=${{ github.repository_owner }}&repo=dotfiles&theme=tokyonight&hide_border=true
-          path: assets/github-stats/pin-dotfiles.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for ProxyTracing
-        uses: stats-organization/github-readme-stats-action@v2.0.1
-        with:
-          card: pin
-          options: >-
-            username=${{ github.repository_owner }}&repo=ProxyTracing&theme=tokyonight&hide_border=true
-          path: assets/github-stats/pin-ProxyTracing.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for optix7_advance_PKUcourse
-        uses: stats-organization/github-readme-stats-action@v2.0.1
-        with:
-          card: pin
-          options: >-
-            username=${{ github.repository_owner }}&repo=optix7_advance_PKUcourse&theme=tokyonight&hide_border=true
-          path: assets/github-stats/pin-optix7_advance_PKUcourse.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate pin card for Hold_RML
-        uses: stats-organization/github-readme-stats-action@v2.0.1
-        with:
-          card: pin
-          options: >-
-            username=${{ github.repository_owner }}&repo=Hold_RML&theme=tokyonight&hide_border=true
-          path: assets/github-stats/pin-Hold_RML.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit generated SVG files
@@ -79,5 +43,6 @@ jobs:
           git config user.email github-actions@github.com
           git add assets/github-stats/*.svg
           if git commit -m "Update README stats cards"; then
+            git pull --rebase
             git push
           fi
