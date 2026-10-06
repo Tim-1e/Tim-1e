@@ -1,7 +1,82 @@
 <!--
-  TIM-1E // FIELD FILE
-  Every panel below is a hand-built SVG: see scripts/ (build_assets.py, render_viewport.py, archive_feed.py).
+  TIM-1E profile — two views, switched by the bars below.
+  <details name="view"> makes them exclusive: opening one closes the other (no JS; GitHub keeps the attribute).
+  FIELD FILE panels are hand-built SVGs, see scripts/ (build_assets.py, render_viewport.py, archive_feed.py).
+  CLASSIC panels live in assets/classic/.
 -->
+
+<p align="center">
+  <a href="https://github.com/Tim-1e"><img src="https://img.shields.io/badge/GitHub-Tim--1e-111827?style=for-the-badge&logo=github" alt="GitHub Tim-1e" /></a>
+  <a href="https://blog.princival.com/"><img src="https://img.shields.io/badge/Blog-blog.princival.com-0EA5E9?style=for-the-badge&logo=windowsterminal" alt="Blog blog.princival.com" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Tim-1e&style=for-the-badge&color=22C55E" alt="Profile views" />
+</p>
+
+<details name="view">
+<summary><picture><img src="./assets/view/classic.svg" width="92%" alt="切换到经典卡片版 / Switch to Classic view" /></picture></summary>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&color=0:0F172A,45:2563EB,100:22C55E&text=Welcome%20to%20Tim_e%27s%20GitHub&fontSize=28&fontAlign=76&fontAlignY=24&fontColor=FFFFFF&animation=fadeIn" alt="Welcome to Tim_e's GitHub" />
+</p>
+
+<p align="center">
+  <img src="./assets/classic/intro-panel.svg" alt="Tim_e profile navigation panel" />
+</p>
+
+<p align="center">
+  <a href="#about"><img src="https://img.shields.io/badge/About-关于我-111827?style=for-the-badge&logo=github" alt="About" /></a>
+  <a href="#blog"><img src="https://img.shields.io/badge/Blog-档案终端-0EA5E9?style=for-the-badge&logo=windowsterminal" alt="Blog" /></a>
+  <a href="#skills"><img src="https://img.shields.io/badge/Skills-语言与工具-2563EB?style=for-the-badge&logo=visualstudiocode" alt="Skills" /></a>
+  <a href="#stats"><img src="https://img.shields.io/badge/Stats-GitHub状态-7C3AED?style=for-the-badge&logo=github" alt="Stats" /></a>
+  <a href="#profile-3d"><img src="https://img.shields.io/badge/3D-贡献图-F97316?style=for-the-badge&logo=git" alt="3D contribution graph" /></a>
+  <a href="#activity"><img src="https://img.shields.io/badge/Activity-最近一个月-22C55E?style=for-the-badge&logo=github" alt="Activity" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Main%20Track-3D%20Rendering-0EA5E9?style=for-the-badge&logo=blender" alt="Main track" />
+  <img src="https://img.shields.io/badge/Side%20Quests-Tools%20%2F%20Reverse%20%2F%20Hardware-F97316?style=for-the-badge&logo=githubactions" alt="Side quests" />
+</p>
+
+<h2 id="about">关于我</h2>
+
+<p align="center">
+  <img src="./assets/classic/about-card.svg" alt="Tim_e about card" />
+</p>
+
+<h2 id="blog">博客 · 档案终端</h2>
+
+<p align="center">
+  <a href="https://blog.princival.com/"><img src="./assets/classic/blog-card.svg" alt="Tim_e blog card - 档案终端" /></a>
+</p>
+
+<h2 id="skills">语言与工具</h2>
+
+<p align="center">
+  <img src="./assets/classic/skills-board.svg" alt="language and tool speed board" />
+</p>
+
+<h2 id="stats">GitHub 状态</h2>
+
+<p align="center">
+  <img src="./assets/github-stats/stats-classic.svg" alt="GitHub stats" />
+  <img src="./assets/github-stats/top-langs-classic.svg" alt="Top languages" />
+</p>
+
+<h2 id="profile-3d">3D 贡献图</h2>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="profile-season-animate 3D contribution graph" />
+</p>
+
+<h2 id="activity">最近一个月公开活动</h2>
+
+<p align="center">
+  <img src="https://jeskei-readme-activity-graph.vercel.app/graph?username=Tim-1e&theme=react-dark&hide_border=true&area=true&radius=8&days=31&custom_title=Tim-1e%20最近一个月公开活动" alt="GitHub Readme Activity Graph" />
+</p>
+
+</details>
+
+<details name="view" open>
+<summary><picture><img src="./assets/view/field.svg" width="92%" alt="切换到档案终端版 / Switch to Field File view" /></picture></summary>
 
 <p align="center">
   <img src="./assets/hero.svg" width="100%" alt="TIM-1E field file — graphics researcher. A path-traced Cornell box converging from 1 to 256 spp." />
@@ -13,6 +88,11 @@
   <a href="#missions"><img src="./assets/nav/03-missions.svg" width="160" alt="03 Missions 任务" /></a>
   <a href="#signal"><img src="./assets/nav/04-signal.svg" width="160" alt="04 Signal 信号" /></a>
   <a href="https://blog.princival.com/"><img src="./assets/nav/05-archive.svg" width="160" alt="05 Archive 博客" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MAIN%20TRACK-3D%20Rendering-ffd400?style=for-the-badge&labelColor=131519&logo=blender&logoColor=ffd400" alt="Main track: 3D rendering" />
+  <img src="https://img.shields.io/badge/SIDE%20QUESTS-Tools%20%2F%20Reverse%20%2F%20Hardware-3fd2e6?style=for-the-badge&labelColor=131519&logo=githubactions&logoColor=3fd2e6" alt="Side quests: tools, reverse engineering, hardware" />
 </p>
 
 <a name="profile"></a>
@@ -74,9 +154,10 @@
 <p align="center">
   <a href="https://blog.princival.com/"><img src="https://img.shields.io/badge/ARCHIVE-blog.princival.com-ffd400?style=for-the-badge&labelColor=131519&logo=windowsterminal&logoColor=ffd400" alt="Blog: blog.princival.com" /></a>
   <a href="https://blog.princival.com/rss.xml"><img src="https://img.shields.io/badge/RSS-subscribe-3fd2e6?style=for-the-badge&labelColor=131519&logo=rss&logoColor=3fd2e6" alt="RSS" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Tim-1e&style=for-the-badge&color=2a2d33&label=VISITORS" alt="Profile views" />
 </p>
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="End of file" />
 </p>
+
+</details>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" fill="none"><title>Switch view: Classic</title><style></style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="96" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#111E33"/><stop offset="0.55" stop-color="#0F172A"/><stop offset="1" stop-color="#10261F"/>
+  </linearGradient>
+  <linearGradient id="line" x1="40" y1="0" x2="1240" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#60A5FA"/><stop offset="0.48" stop-color="#22D3EE"/><stop offset="1" stop-color="#22C55E"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="1278" height="94" rx="20" fill="url(#bg)" stroke="#334155" stroke-width="1.5"/>
+<text x="40" y="38" fill="#22D3EE" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.8">VIEW B · CLASSIC</text>
+<text x="40" y="74" fill="#F8FAFC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="860">经典卡片版</text>
+<text x="210" y="73" fill="#A7F3D0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="700">原始风格 · 卡片 / 徽章 / 统计</text>
+<text x="1240" y="62" text-anchor="end" fill="#CBD5E1" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="760">点击切换 ▸</text>
+<path d="M40 86H1240" stroke="url(#line)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>

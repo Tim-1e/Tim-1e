@@ -20,7 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate 3D contribution profile
+      # Classic view: the action's default set (profile-season-animate.svg etc.)
+      - name: Generate 3D contribution profile (classic)
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # Field-file view: themed profile-field.svg
+      - name: Generate 3D contribution profile (field file)
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

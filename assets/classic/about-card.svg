@@ -1,0 +1,50 @@
+<svg width="1050" height="500" viewBox="0 0 1050 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="42" x2="1010" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111E33"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#10261F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="84" y1="138" x2="966" y2="138" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.48" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="soft" x="12" y="14" width="1026" height="472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1050" height="500" rx="28" fill="#0B0F16"/>
+  <g filter="url(#soft)">
+    <rect x="42" y="44" width="966" height="412" rx="24" fill="url(#bg)" stroke="#334155"/>
+  </g>
+  <text x="84" y="103" fill="#F8FAFC" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="880">关于我 · Tim_e</text>
+  <text x="84" y="139" fill="#A7F3D0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="720">杂食型图形研究员养成中，今天也在给技能树加点。</text>
+  <path d="M84 162H966" stroke="url(#line)" stroke-width="2.4" stroke-linecap="round"/>
+
+  <text x="84" y="212" fill="#E2E8F0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21">
+    <tspan fill="#93C5FD" font-weight="850">主线：</tspan><tspan>3D 生成与渲染，和几何、光照、工程细节长期贴贴。</tspan>
+  </text>
+  <text x="84" y="250" fill="#E2E8F0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21">
+    <tspan fill="#86EFAC" font-weight="850">支线：</tspan><tspan>工具开发 / 逆向增强 / 硬件开发 / 自动化。</tspan>
+  </text>
+  <text x="84" y="286" fill="#CBD5E1" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20">
+    <tspan>看到能让工作流变顺手的东西，就想拆开看看，再做成可复用模块。</tspan>
+  </text>
+  <text x="84" y="334" fill="#E2E8F0" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21">
+    <tspan fill="#FDE68A" font-weight="850">目标：</tspan><tspan>论文能啃，管线能写，服务能搭，硬件能修。</tspan>
+  </text>
+  <text x="84" y="370" fill="#CBD5E1" font-family="Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20">
+    <tspan>向全栈能力最强的图形研究员进化中 (｀・ω・´)</tspan>
+  </text>
+
+  <g font-family="Cascadia Code, Consolas, Microsoft YaHei, monospace" font-size="16" font-weight="760">
+    <rect x="84" y="398" width="140" height="34" rx="12" fill="#0F172A" stroke="#60A5FA"/><text x="154" y="421" text-anchor="middle" fill="#DBEAFE">ProxyTracing</text>
+    <rect x="238" y="398" width="238" height="34" rx="12" fill="#0F172A" stroke="#60A5FA"/><text x="357" y="421" text-anchor="middle" fill="#DBEAFE">optix7_advance_PKUcourse</text>
+    <rect x="490" y="398" width="94" height="34" rx="12" fill="#0F172A" stroke="#22D3EE"/><text x="537" y="421" text-anchor="middle" fill="#CFFAFE">dotfiles</text>
+    <rect x="598" y="398" width="144" height="34" rx="12" fill="#0F172A" stroke="#A78BFA"/><text x="670" y="421" text-anchor="middle" fill="#EDE9FE">cursor_agent</text>
+    <rect x="756" y="398" width="92" height="34" rx="12" fill="#0F172A" stroke="#22C55E"/><text x="802" y="421" text-anchor="middle" fill="#DCFCE7">AR-TTS</text>
+    <rect x="862" y="398" width="106" height="34" rx="12" fill="#0F172A" stroke="#F59E0B"/><text x="915" y="421" text-anchor="middle" fill="#FEF3C7">Hold_RML</text>
+  </g>
+</svg>

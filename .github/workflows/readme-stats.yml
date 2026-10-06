@@ -37,6 +37,24 @@ jobs:
           path: assets/github-stats/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate stats card (classic)
+        uses: stats-organization/github-readme-stats-action@v2.0.1
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&custom_title=Tim-1e%20GitHub%20Stats
+          path: assets/github-stats/stats-classic.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (classic)
+        uses: stats-organization/github-readme-stats-action@v2.0.1
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+          path: assets/github-stats/top-langs-classic.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit generated SVG files
         run: |
           git config user.name github-actions

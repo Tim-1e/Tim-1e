@@ -81,12 +81,13 @@ def hero():
     times = [0.0] + [t0 + i * step for i in range(len(cmd) + 1)] + [TT]
     widths = [0.0] + [i * cw for i in range(len(cmd) + 1)] + [len(cmd) * cw]
     ktt = ";".join(f"{t / TT:.4f}" for t in times)
+    typed_text = text(tx, ty, cmd, tsize, FG, MONO, extra=f'textLength="{len(cmd) * cw:.1f}"')
     typed = (
         f'<clipPath id="type"><rect x="{tx}" y="{ty - 22}" width="0" height="30">'
         f'<animate attributeName="width" values="{";".join(f"{w:.1f}" for w in widths)}" keyTimes="{ktt}" '
         f'calcMode="discrete" dur="{TT}s" repeatCount="indefinite"/></rect></clipPath>'
         + text(64, ty, "&gt;", tsize, CYAN, MONO_B)
-        + f'<g clip-path="url(#type)">{text(tx, ty, cmd, tsize, FG, MONO, extra=f'textLength="{len(cmd) * cw:.1f}"')}</g>'
+        + f'<g clip-path="url(#type)">{typed_text}</g>'
         + f'<rect class="blink" x="{tx}" y="{ty - 17}" width="{cw:.1f}" height="21" fill="{HAZARD}">'
         f'<animate attributeName="x" values="{";".join(f"{tx + w:.1f}" for w in widths)}" keyTimes="{ktt}" '
         f'calcMode="discrete" dur="{TT}s" repeatCount="indefinite"/></rect>'
@@ -94,9 +95,12 @@ def hero():
 
     name = "TIM-1E"
     name_w = text_width(name, 210, DISPLAY)
+    # Python 3.10 (on 9950) forbids reusing the f-string's quote inside {}, so build these first.
+    ghost_c = text(60, 290, name, 210, CYAN, DISPLAY, extra='fill-opacity=".55"')
+    ghost_o = text(60, 290, name, 210, ORANGE, DISPLAY, extra='fill-opacity=".45"')
     title = (
-        f'<g class="glitch-c">{text(60, 290, name, 210, CYAN, DISPLAY, extra='fill-opacity=".55"')}</g>'
-        f'<g class="glitch-o">{text(60, 290, name, 210, ORANGE, DISPLAY, extra='fill-opacity=".45"')}</g>'
+        f'<g class="glitch-c">{ghost_c}</g>'
+        f'<g class="glitch-o">{ghost_o}</g>'
         f'<g clip-path="url(#wipe)">{text(60, 290, name, 210, FG, DISPLAY)}</g>'
         f'<clipPath id="wipe"><rect x="40" y="100" width="0" height="220">'
         f'<animate attributeName="width" from="0" to="{name_w + 40:.0f}" dur=".9s" begin=".15s" fill="freeze" '
@@ -559,6 +563,52 @@ def footer():
     return svg(W, H, body, BLINK, "End of file")
 
 
+# ---------------------------------------------------------------------------
+# VIEW SWITCH BARS (used as <summary> of two exclusive <details name="view">)
+# Each bar previews the style it switches to.
+# ---------------------------------------------------------------------------
+CLASSIC_FONT = "Inter, Segoe UI, Microsoft YaHei, Arial, sans-serif"
+
+
+def view_bar_field():
+    W, H = 1280, 96
+    body = f"""
+<defs>{hazard_pattern(size=12)}<clipPath id="p"><path d="{chamfer(1, 1, W - 2, H - 2, 18, 'tr bl')}"/></clipPath></defs>
+<g clip-path="url(#p)">
+  <rect width="{W}" height="{H}" fill="{BG}"/>
+  <rect width="22" height="{H}" fill="url(#hz)"/>
+  {text(50, 36, "VIEW A · DEFAULT", 13, HAZARD, MONO_B, ls=2)}
+  {text(48, 78, "FIELD FILE", 42, FG, DISPLAY, ls=1)}
+  {text(48 + text_width("FIELD FILE", 42, DISPLAY) + 20, 76, "档案终端版 · 动画 / 路径追踪 / 实时博客", 20, FG_2, SANS)}
+  <circle class="blink" cx="{W - 216}" cy="57" r="4" fill="{GREEN}"/>
+  {text(W - 34, 62, "CLICK TO SWITCH ▸", 15, FG_2, MONO, anchor="end", ls=1)}
+</g>
+<path d="{chamfer(1, 1, W - 2, H - 2, 18, 'tr bl')}" stroke="{HAZARD}" stroke-width="1.5"/>
+"""
+    return svg(W, H, body, BLINK, "Switch view: Field File")
+
+
+def view_bar_classic():
+    W, H = 1280, 96
+    body = f"""
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="{W}" y2="{H}" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#111E33"/><stop offset="0.55" stop-color="#0F172A"/><stop offset="1" stop-color="#10261F"/>
+  </linearGradient>
+  <linearGradient id="line" x1="40" y1="0" x2="{W - 40}" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#60A5FA"/><stop offset="0.48" stop-color="#22D3EE"/><stop offset="1" stop-color="#22C55E"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="20" fill="url(#bg)" stroke="#334155" stroke-width="1.5"/>
+<text x="40" y="38" fill="#22D3EE" font-family="{CLASSIC_FONT}" font-size="14" font-weight="800" letter-spacing="1.8">VIEW B · CLASSIC</text>
+<text x="40" y="74" fill="#F8FAFC" font-family="{CLASSIC_FONT}" font-size="30" font-weight="860">经典卡片版</text>
+<text x="210" y="73" fill="#A7F3D0" font-family="{CLASSIC_FONT}" font-size="19" font-weight="700">原始风格 · 卡片 / 徽章 / 统计</text>
+<text x="{W - 40}" y="62" text-anchor="end" fill="#CBD5E1" font-family="{CLASSIC_FONT}" font-size="17" font-weight="760">点击切换 ▸</text>
+<path d="M40 86H{W - 40}" stroke="url(#line)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+"""
+    return svg(W, H, body, title="Switch view: Classic")
+
+
 def main():
     print("building assets/")
     write("hero.svg", hero())
@@ -571,6 +621,8 @@ def main():
     for m in MISSIONS:
         write(f"missions/{m[0]}.svg", mission_card(*m))
     write("footer.svg", footer())
+    write("view/field.svg", view_bar_field())
+    write("view/classic.svg", view_bar_classic())
     build_feed()
 
 
