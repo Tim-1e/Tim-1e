@@ -61,6 +61,11 @@ jobs:
           git config user.email github-actions@github.com
           git add assets/github-stats/*.svg
           if git commit -m "Update README stats cards"; then
-            git pull --rebase
-            git push
+            # the three profile workflows can finish together: rebase and retry on a rejected push
+            pushed=0
+            for i in 1 2 3 4 5; do
+              if git pull --rebase && git push; then pushed=1; break; fi
+              sleep $((i * 5))
+            done
+            [ "$pushed" = 1 ]
           fi
